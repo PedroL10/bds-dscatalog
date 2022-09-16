@@ -43,7 +43,6 @@
 }
 
 
-
 @media (min-width : 576px) {
 
     .home-container {
@@ -53,14 +52,12 @@
 
     .home-content-container h1 {
         width: 506px;
-        font-size: 1em;
         margin-bottom: 20px;
     }
 
     .home-content-container p {
-        width: 260px;
-        font-size: 1em;
-        margin-bottom: 15px;
+        width: 506px;
+        margin-bottom: 20px;
     }
 
     .home-content-container button {
@@ -81,7 +78,6 @@
     .home-content-container {        
         padding: 20px 20px 100px 20px;
     }
-
 }
 
 @media (min-width: 992px) {
@@ -114,7 +110,7 @@
     .home-card {
         flex-direction: row;
         justify-content: space-around;
-        padding: calc(((85vh - 480px) / 2) - 20) 0 ;
+        padding: calc(((85vh - 480px) / 2) - 20px) 0 ;
     }
 
     .home-content-container {
